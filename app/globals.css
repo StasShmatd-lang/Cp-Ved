@@ -1,0 +1,51 @@
+:root {
+  --bg-0: #070a10;
+  --bg-1: #0e1522;
+  --bg-2: #151e2e;
+  --ink: #f4f7fb;
+  --muted: #9aa8bc;
+  --coral: #ff6b5a;
+  --coral-deep: #ff3d2e;
+  --lime: #c8f54a;
+  --ice: #7ee7f2;
+  --ice-deep: #3ec8d8;
+  --line: rgba(126, 231, 242, 0.18);
+  --shadow: 0 24px 80px rgba(0, 0, 0, 0.55);
+  --font-display: var(--font-unbounded), 'Arial Black', sans-serif;
+  --font-body: var(--font-manrope), 'Trebuchet MS', sans-serif;
+  color-scheme: dark;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+  margin: 0;
+  background: var(--bg-0);
+  color: var(--ink);
+}
+
+body {
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+}
