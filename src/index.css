@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@500;600;700;800&family=Unbounded:wght@500;700;800&display=swap');
+
+:root {
+  --bg-0: #070a10;
+  --bg-1: #0e1522;
+  --bg-2: #151e2e;
+  --ink: #f4f7fb;
+  --muted: #9aa8bc;
+  --coral: #ff6b5a;
+  --coral-deep: #ff3d2e;
+  --lime: #c8f54a;
+  --ice: #7ee7f2;
+  --ice-deep: #3ec8d8;
+  --line: rgba(126, 231, 242, 0.18);
+  --shadow: 0 24px 80px rgba(0, 0, 0, 0.55);
+  --font-display: 'Unbounded', 'Arial Black', sans-serif;
+  --font-body: 'Onest', 'Trebuchet MS', sans-serif;
+  color-scheme: dark;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--bg-0);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+}
