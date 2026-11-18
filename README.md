@@ -13,7 +13,7 @@ npm run dev
 
 ```bash
 npm run build
-npm run preview
+npm start
 ```
 
 ## Сценарий
@@ -26,12 +26,12 @@ npm run preview
 
 ## Бренд
 
-- Логотип только `brand/logo.png` (и копия в `public/brand/logo.png` для статики).
+- Логотип только `brand/logo.png` (копия в `public/brand/logo.png`).
 - Футер ведёт на Instagram: [instagram.com/st.shmidt](https://www.instagram.com/st.shmidt?mdxt=emx1MzR3dmN0MmZx&utm_source=qr).
 
 ## Стек
 
-Vite + React + TypeScript. Статика, без бэкенда.
+Next.js 15 + React. Без бэкенда.
 
 ## Контент
 

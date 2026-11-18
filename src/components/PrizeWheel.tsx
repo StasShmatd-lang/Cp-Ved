@@ -33,8 +33,7 @@ export function PrizeWheel({ rotation, spinning }: Props) {
     () =>
       CRISES.map((c, i) => {
         const mid = i * SLICE + SLICE / 2
-        const pos = polar(CX, CY, R * 0.62, mid)
-        return { ...c, mid, pos, color: SEGMENT_COLORS[i % SEGMENT_COLORS.length] }
+        return { ...c, mid, color: SEGMENT_COLORS[i % SEGMENT_COLORS.length] }
       }),
     [],
   )
